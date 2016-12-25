@@ -204,7 +204,7 @@
 
             $.ajax({
                 type: "POST",
-                url: 'https://appharbor.com/applications/server-13/api/BinhLuan',
+                url: 'https://server-13.apphb.com/api/BinhLuan',
                 data: JSON.stringify(binhluan),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -291,7 +291,7 @@
 
             $.ajax({
                 type: "GET",
-                url: 'https://appharbor.com/applications/server-13/api/BinhLuan/GetCommentsByFoodId/' + mamon,
+                url: 'https://server-13.apphb.com/api/BinhLuan/GetCommentsByFoodId/' + mamon,
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
                 success: function (msg) {
